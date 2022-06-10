@@ -1,7 +1,12 @@
 import React from 'react';
+import Article from './components/Article';
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <div className="d-flex flex-row justify-content align-items-center p-20">
+      <Article />
+    </div>
+  );
 }
 
 export default App;
