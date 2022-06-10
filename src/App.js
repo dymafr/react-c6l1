@@ -1,10 +1,10 @@
 import React from 'react';
-import Article from './components/Article';
+import Articles from './components/Articles';
 
 function App() {
   return (
     <div className="d-flex flex-row justify-content align-items-center p-20">
-      <Article />
+      <Articles />
     </div>
   );
 }
